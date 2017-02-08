@@ -1,0 +1,115 @@
+footer {
+	min-width: 1170px;
+	margin-top: -1px;
+	background-color: #18272f;
+	padding-bottom: 23px;
+}
+footer section {
+	width: 1170px;
+	margin: 0 auto;
+	background-color: #18272f !important;
+}
+footer section article {
+	float: left;
+}
+footer section .left {
+	width: 25%;
+	margin-top: 43px;
+}
+footer section .left .phone {
+	overflow: hidden;
+	margin-top: 27px;
+	margin-left: 10px;
+}
+footer section .left .phone .img {
+	float: left;
+}
+footer section .left .phone p {
+	float: left;
+	margin-left: 10px;
+	line-height: 26px;
+	color: #666666;
+}
+footer section .left .service_time {
+	font-size: 12px;
+	margin-top: 15px;
+	margin-left: 47px;
+	color: #666666;
+}
+footer section .center {
+	width: 50%;
+	width: 585px \0/;
+}
+footer section .center ul {
+	margin-top: 48px;
+	overflow: hidden;
+}
+footer section .center ul li {
+	float: left;
+}
+footer section .center ul li a {
+	padding-left: 22px;
+	padding-right: 22px;
+	color: #666666;
+}
+footer section .center ul li a:hover {
+	color: #ddd;
+}
+footer section .certification {
+	margin-top: 30px;
+	margin-left: 100px;
+}
+footer section .certification .credibility a {
+	padding: 0;
+	margin-right: 18px;
+	display: block;
+	width: 100px;
+	height: 36px;
+	border-radius: 5px;
+	background-image: url(../../images/certification_1_b.png);
+	background-repeat: no-repeat;
+	background-size: 100px 36px;
+}
+footer section .certification .credibility a:hover {
+	background-image: url(../../images/certification_1_a.png);
+}
+footer section .certification .private a {
+	padding: 0;
+	margin-right: 18px;
+	display: block;
+	width: 116px;
+	height: 36px;
+	border-radius: 5px;
+	background-image: url(../../images/certification_2_b.png);
+	background-repeat: no-repeat;
+	background-size: 116px 36px;
+}
+footer section .certification .private a:hover {
+	background-image: url(../../images/certification_2_a.png);
+}
+footer section .center p {
+	color: #666;
+	font-size: 12px;
+	margin-left: 80px;
+	margin-top: 30px;
+}
+footer section .center p span {
+	margin-left: 15px;
+}
+footer section .right {
+	width: 25%;
+}
+footer section .right ul {
+	margin-top: 42px;
+	overflow: hidden;
+}
+footer section .right ul li {
+	float: left;
+	margin-left: 23px;
+}
+footer section .right ul li p {
+	margin-top: 14px;
+	font-size: 12px;
+	text-align: center;
+	color: #666;
+}

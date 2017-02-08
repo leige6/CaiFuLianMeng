@@ -1,0 +1,264 @@
+
+@JundeColor:#f27f00;
+@ActiveColor:#f07000;
+@TextColor:#666666;
+@BGC:#f7f7f7;
+
+.container_find{
+	header{
+		overflow: hidden;
+		min-width: 1170px;
+		.row{
+			width: 1170px;
+			margin: 0 auto;
+			.logo{
+				float: left;
+				margin-top: 35px;
+				margin-right: 81px;
+				margin-bottom: 33px;
+			}
+			h1{
+				margin-top: 44px;
+				float: left;
+				font-size: 26px;
+				color:@JundeColor;
+			}
+		}
+		border-bottom: 1px solid @JundeColor;
+	}
+	.content{
+		background-color: @BGC;
+		overflow: hidden;
+		article{
+			width: 978px;
+			margin: 0 auto;
+			margin-bottom: 68px;
+			background-color: #fff;
+			box-shadow: 0px 2px 10px #b3b3b3;
+			h3{
+				margin-top: 53px;
+				text-indent: 55px;
+				color: @TextColor;
+				font-size: 16px;
+				line-height: 77px;
+				border-bottom:1px solid #aaaaaa;
+			}
+			form{
+				width: 500px;
+				margin: 0 auto;
+				margin-top: 38px;
+				label{
+					width: 100%;
+					margin-top: 28px;
+					position: relative;
+					span{
+						display: inline-block;
+						width: 80px;
+						text-align: right;
+						line-height: 32px;
+						color: #333333;
+					}
+					input{
+						width: 385px;
+						line-height: 32px;
+						margin-left: 22px;
+						text-indent: 12px;
+						border-bottom: 1px solid #999999;
+					}
+					.active{
+						border-bottom: 1px solid @JundeColor;
+					}
+					img{
+						position: absolute;
+						top: 5px;
+						right: 20px;
+					}
+					a{
+						position: absolute;
+						top: 5px;
+						right: 20px;
+						color: @JundeColor;
+						&:hover{
+							color: @ActiveColor;
+							text-shadow: 0px 0px 1px @ActiveColor;
+						}
+					}
+				}
+				.checkbox-inline{
+						margin-left: 110px;
+						input{
+							margin-left: -20px;
+							margin-top: 1px;
+							line-height: 0px;
+							width: auto;
+							text-indent: 0px;
+							border: 0;
+						}
+						a{
+							position: relative !important;
+							top: 0;
+							right: 0;
+						}
+					}
+				button{
+					width: 280px;
+					margin: 0 auto;
+					display: block;
+					text-align: center;
+					line-height: 34px;
+					margin-top: 52px;
+					background-color: @JundeColor;
+					color: #fff;
+					border: 0;
+					border-radius: 7px;
+					box-shadow: 0px 3px 3px #874700;
+					margin-bottom: 13px;
+					outline:none;
+					&:active{
+						box-shadow: 0px 0px 0px #874700;
+						box-shadow: 0px 0px 5px 1px #874700 inset;
+						background-color: @ActiveColor;
+					}
+					&:hover{
+						background-color: @ActiveColor;
+					}
+				}
+				p{
+					width: 280px;
+					margin: 0 auto;
+					margin-top: 19px;
+					padding-bottom: 64px;
+					color: #333333;
+					text-align: right;
+					a{
+						color: @JundeColor;
+						&:hover{
+							color: @ActiveColor;
+							text-shadow: 0px 0px 1px @ActiveColor;
+						}
+					}
+				}
+			}
+		}
+
+	}
+	footer{
+		min-width: 1170px;
+		margin-top: -1px;
+		background-color: #18272f;
+		padding-bottom: 23px;
+		section{
+			width: 1170px;
+			margin: 0 auto;
+			background-color: #18272f;
+			article{
+				float: left;
+			}
+			article:nth-child(1){
+				width: 25%;
+				margin-top: 43px;
+				.phone{
+					overflow: hidden;
+					margin-top: 27px;
+					margin-left: 10px;
+					.img{
+						float: left;
+					}
+					p{
+						float: left;
+						margin-left: 10px;
+						line-height: 26px;
+						color: #666666;
+					}
+				}
+				.service_time{
+					font-size: 12px;
+					margin-top: 15px;
+					margin-left: 47px;
+					color: #666666;
+				}
+			}
+			article:nth-child(2){
+				width: 50%;
+				ul{
+					margin-top: 48px;
+					overflow: hidden;
+					li{
+						float: left;
+						a{
+							padding-left: 22px;
+							padding-right: 22px;
+							color: #666666;
+							&:hover{
+								color: #ddd;
+							}
+						}
+					}
+				}
+				.certification{
+					margin-top: 30px;
+					margin-left: 100px;
+					li:nth-child(1){
+						a{
+							padding:0;
+							margin-right: 18px;
+							display: block;
+							width: 100px;
+							height: 36px;
+							border-radius: 5px;
+							background-image: url(../images/certification_1_b.png);
+							background-repeat: no-repeat;
+							background-size: 100px 36px;
+							&:hover{
+								background-image: url(../images/certification_1_a.png);
+							}
+						}
+
+					}
+					li:nth-child(2){
+						a{
+							padding:0;
+							margin-right: 18px;
+							display: block;
+							width: 116px;
+							height: 36px;
+							border-radius: 5px;
+							background-image: url(../images/certification_2_b.png);
+							background-repeat: no-repeat;
+							background-size: 116px 36px;
+							&:hover{
+								background-image: url(../images/certification_2_a.png);
+							}
+						}
+					}
+				}
+				p{
+					color: #666;
+					font-size: 12px;
+					margin-left: 80px;
+					margin-top: 30px;
+					span{
+						margin-left: 15px;
+					}
+				}
+			}
+			article:nth-child(3){
+				width: 25%;
+				ul{
+					margin-top: 42px;
+					overflow: hidden;
+					li{
+						float: left;
+						margin-left: 23px;
+						p{
+							margin-top: 14px;
+							font-size: 12px;
+							text-align: center;
+							color: #666;
+						}
+					}
+				}
+			}
+		}
+	}
+}

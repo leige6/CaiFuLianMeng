@@ -1,0 +1,215 @@
+@import "reset.css";
+@import "header.css";
+@import "footer.css";
+@import "menu.css";
+/*-*-*-*-*-*-*-*-*  右侧内容-报单详情-部分  *-*-*-*-*-*-*-*-*/
+.trading_center_form ul{
+   margin-top: 13px;
+   width: 785px;
+}
+.trading_center_form ul span{
+   font-size: 16px;
+   color: #666666;
+}
+.trading_center_form ul span:first-child{
+   display: inline-block;
+   width: 100px;
+   text-align: right;
+   line-height: 46px;
+}
+.trading_center_form ul span:first-child+span{
+   width: 470px;
+   color: #333333;
+}
+.trading_center_form ul span:first-child+span+span+span{
+   color: #333333;
+}
+.trading_center_form .user_documents{
+   width: 685px;
+   float: right;
+}
+.trading_center_form .user_documents .documents_list{
+   display: block;
+   width: 200px;
+   height: 128px;
+   float: left;
+   position: relative;
+   border-radius:5px;
+   overflow: hidden;
+   margin-left: 35px;
+   margin-bottom: 24px;
+}
+.trading_center_form .user_documents a:first-child{
+   margin-top: 15px;
+   margin-left:10px;
+}
+.trading_center_form .user_documents a:first-child+a{
+   margin-top: 15px;
+}
+.trading_center_form .user_documents a:first-child+a+a{
+   margin-top: 15px;
+}
+.trading_center_form .user_documents a:first-child+a+a+a{
+   margin-left:10px;
+}
+.trading_center_form .user_documents .shadow{
+   width: 200px;
+   height: 128px;
+   background-color: rgba(0,0,0,0.4);
+   filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
+   position: absolute;
+   z-index:999;
+   border-radius:5px;
+}
+.trading_center_form .user_documents img{
+   position: absolute;
+   width: 200px;
+   height: 128px;
+   border-radius:5px;
+}
+.trading_center_form .user_documents p{
+   color: #fff;
+   text-align: center;
+   line-height:20px;
+}
+.trading_center_form .user_documents p:first-child{
+   margin-top: 45px;
+}
+
+.trading_center_form ul .other_li{
+   clear: both;
+}
+.trading_center_form ul li:first-child span:first-child+span{
+   display: inline-block;
+   width: 200px;
+}
+.trading_center_form ul li:first-child span:first-child+span+span{
+   margin-left: 275px;
+}
+
+.right_content .return{
+   color: #f27f00;
+   position: absolute;
+   font-size:16px;
+   top: -41px;
+   right: 15px;
+}
+.right_content .return:hover{
+   text-shadow: 0px 0px 1px #f07000;
+}
+.reject_cause{
+   width: 515px;
+   margin:0 auto;
+   margin-top: 44px;
+   line-height: 90px;
+   text-align: center;
+   border:1px solid #d9d9d9;
+   border-radius: 5px;
+}
+.reject_cause span{
+   padding:0 5px;
+}
+/*-*-*-*-*-*-*-*-*  右侧内容-机构报单-分页-部分  *-*-*-*-*-*-*-*-*/
+.right_content .pagination{
+   border: 0;
+   margin-top: 35px;
+   margin-bottom:44px;
+   display: block;
+}
+.pagination .page_btn_list{
+   width: 730px;
+   margin:0 auto;
+}
+.pagination ul {
+   width: 695px;
+   overflow: hidden;
+   margin: 0 auto;
+}
+.pagination ul li {
+   float: left;
+   line-height: 35px;
+   border: 1px solid #d4d4d4;
+   text-align: center;
+}
+.pagination ul li a {
+   display: block;
+   width: 35px;
+   height: 35px;
+}
+.pagination ul li:nth-child(3) {
+   margin-left: 0px;
+}
+.pagination ul li:nth-child(1) {
+   margin-right: 23px;
+}
+.pagination ul li:nth-child(2) {
+   margin-right: 23px;
+}
+.pagination ul li:nth-child(10) {
+   margin-left: 23px;
+}
+.pagination ul li:nth-child(11) {
+   margin-left: 23px;
+}
+.pagination ul .page_btn_num {
+   margin-left: 13px;
+   border-radius: 3px;
+}
+.pagination ul .page_btn_num a {
+   color: #f27f00;
+}
+.pagination ul .page_btn_num a:active {
+   -webkit-box-shadow: 0px 0px 15px #4c4c4c inset;
+   box-shadow: 0px 0px 15px #4c4c4c inset;
+}
+.pagination ul .page_btn_num a:hover {
+   background-color: #f27f00;
+   color: #fff;
+}
+.pagination ul .page_btn {
+   position: relative;
+   overflow: hidden;
+   height: 37px;
+   width: 66px;
+   border-radius: 3px;
+}
+.pagination ul .page_btn a {
+   width: 66px;
+   color: #fff;
+   background-color: #f27f00;
+   position: absolute;
+   top: 0;
+}
+.pagination ul .page_btn a span {
+   background-color: #f27f00;
+   display: block;
+   line-height: 35px;
+}
+.pagination ul .page_btn a:hover {
+   background-color: #f07000;
+}
+.pagination ul .page_btn span:active {
+   -webkit-box-shadow: 0px 0px 15px #4c4c4c inset;
+   box-shadow: 0px 0px 15px #4c4c4c inset;
+}
+/*-*-*-*-*-*-*-*-*  右侧内容-理财师-我的报单-部分  *-*-*-*-*-*-*-*-*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

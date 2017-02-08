@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>首页-找回密码</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/get_password.css">
+<!--[if lt IE 9]>
+<script type="text/javascript" src="js/html5shiv.js"></script>
+<script type="text/javascript" src="js/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="jquery/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="jquery/jquery-placeholder.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+	<div class="container_find">
+		<!--  *********** 头部部分 ***********  -->
+		<header>
+			<div class="row">
+				<div class="logo">
+					<img src="images/logo.png">
+				</div>
+				<h1>找回密码</h1>
+			</div>
+		</header>
+		<!--  *********** 内容部分 ***********  -->
+		<section class="content">
+			<article>
+				<h3>为保障账户安全，请使用手机进行身份验证，本站对您的信息严格保密</h3>
+				<form>
+					<label>
+						<span>注册手机号</span>
+						<input class="active" type="text" placeholder="请输入您注册的手机号码" name="">
+					</label>
+					<label>
+						<span>图形码</span>
+						<input type="text" placeholder="请输入图形验证码" name="">
+						<img src="images/test_code.png">
+					</label>
+					<label>
+						<span>短信验证码</span>
+						<input type="text" placeholder="请输入短信验证码" name="">
+						<a href="javascript:;">获取验证码</a>
+					</label>
+					<label>
+						<span>设置新密码</span>
+						<input type="password" placeholder="请输入新的登录密码" name="">
+					</label>
+					<button>确认提交</button>
+					<p>如需帮助请联系客服：+8610 65186890-97</p>
+				</form>
+			</article>
+		</section>
+		<!--  *********** 底部部分 ***********  -->
+		<footer>
+			<section class="clearfix">
+				<article class="left">
+					<img src="images/bottom_logo.png">
+					<div class="phone">
+						<div class="img">
+							<img src="images/bottom_phone.png">
+						</div>
+						<p>+8610 65186890-97</p>
+					</div>
+					<p class="service_time">服务时间：09:00 - 21:00</p>
+				</article>
+				<article class="center">
+					<ul>
+						<li><a href="javascript:;">关于我们</a></li>
+						<li><a href="javascript:;">加入我们</a></li>
+						<li><a href="javascript:;">隐私保障</a></li>
+						<li><a href="javascript:;">法律声明</a></li>
+						<li><a href="javascript:;">联系我们</a></li>
+					</ul>
+					<ul class="certification">
+						<li class="credibility"><a href="javascript:;"></a></li>
+						<li class="private"><a href="javascript:;"></a></li>
+					</ul>
+					<p>
+						<span>北京君德财富投资管理有限公司</span>
+						<span>| 京ICP备11024125号</span>
+					</p>
+				</article>
+				<article class="right">
+					<ul>
+						<li>
+							<img src="images/download_app.png">
+							<p>下载手机APP</p>
+						</li>
+						<li>
+							<img src="images/wechat.png">
+							<p>关注官方微信</p>
+						</li>
+					</ul>
+				</article>
+			</section>
+		</footer>
+	</div>
+
+<script type="text/javascript">
+
+$("input").focus(function(){
+	$("input").each(function(){
+		$("input").removeClass("active");
+	})
+	$(this).addClass("active");
+});
+$(function(){
+   $("input,textarea").placeholder();
+});
+
+</script>
+</body>
+</html>

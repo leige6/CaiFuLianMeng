@@ -1,0 +1,105 @@
+/*-*-*-*-*-*-*-*-*  右侧内容-理财师-我的报单-部分  *-*-*-*-*-*-*-*-*/
+.right_content .financial_table a{
+   display: block;
+   color: #f27f00;
+   height: 18px;
+}
+.right_content .financial_table a:nth-child(1){
+   position: relative;
+   top: -9px;
+}
+.right_content .financial_table a:nth-child(2){
+   margin-top: -9px;
+}
+.right_content .tab-content{
+   border-top: 0;
+}
+.tab-content .tab-pane td p{
+   color: #666;
+}
+/*-*-*-*-*-*-*-*-*  右侧内容-理财师-我的报单-部分  *-*-*-*-*-*-*-*-*/
+.financial_state .declaration{
+   width: 676px;
+}
+.financial_state .nav_list{
+   overflow: hidden;
+   margin:0 auto;
+   margin-top: 24px;
+}
+.financial_state ul li{
+   float: left;
+}
+.financial_state ul li a{
+   color: #333;
+}
+.financial_state .nav_list a{
+   display: block;
+   padding-left: 15px;
+   padding-right: 15px;
+   line-height: 36px;
+   font-size: 16px;
+   border-radius:3px;
+   text-align: center;
+}
+.financial_state .nav_list a:hover{
+   background-color: #f0f0f0;
+}
+.financial_state .nav_list a span{
+   display: inline-block;
+   background-color: #f27f00;
+   width: 28px;
+   color: #fff;
+   border-radius: 50%;
+   margin-left: 10px;
+   line-height: 20px;
+   font-size: 12px;
+}
+.financial_state .nav_list .active a{
+   background-color: #f27f00;
+   color: #fff;
+
+}
+.financial_state .nav_list .active a span{
+   display: inline-block;
+   background-color: #fff;
+   color: #f27f00;
+   border-radius: 50%;
+   margin-left: 10px;
+   line-height: 20px;
+   font-size: 12px;
+}
+/*-*-*-*-*-*-*-*-*  右侧内容-理财师-我的报单-部分  *-*-*-*-*-*-*-*-*/
+.financial_state .declaration{
+   width: 615px;
+}
+/*-*-*-*-*-*-*-*-*  右侧内容-理财师-我的预约-部分  *-*-*-*-*-*-*-*-*/
+.financial_state .appointment{
+   width: 630px;
+}
+
+.financial_state .appointment{
+   width: 565px;
+}
+/*-*-*-*-*-*-*-*-*  右侧内容-理财师-我的合同-部分  *-*-*-*-*-*-*-*-*/
+.financial_state .contract{
+   width: 680px;
+}
+.financial_state .contract a{
+   display: block;
+   padding-left: 8px;
+   padding-right: 5px;
+   line-height: 36px;
+   font-size: 14px;
+   text-align: center;
+}
+/*-*-*-*-*-*-*-*-*  右侧内容-理财师-我的收藏-部分  *-*-*-*-*-*-*-*-*/
+.financial_state .keep{
+   width: 630px;
+}
+.tab-content .tab-pane table span{
+   top: -6px;
+}
+/*-*-*-*-*-*-*-*-*  右侧内容-理财师-系统消息-部分  *-*-*-*-*-*-*-*-*/
+.financial_state .system_news{
+   width: 630px;
+}

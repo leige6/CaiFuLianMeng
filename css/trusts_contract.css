@@ -1,0 +1,83 @@
+@import "public/details.css";
+
+/*-*-*-*-*-*-*-*-*  右侧内容-机构合同-合同跟踪-部分  *-*-*-*-*-*-*-*-*/
+.trading_center_form ul span:first-child {
+   line-height: 38px;
+}
+.right_content .contrac_track{
+   border: 0;
+   margin-bottom: 60px;
+}
+.contrac_track h4{
+   color: #f27f00;
+   font-size: 16px;
+   font-weight: 100;
+}
+.contrac_track table{
+   width: 715px;
+   margin: 0 auto;
+   margin-top: 24px;
+   text-align: center;
+   border:1px solid #b9b9b9;
+   border-radius: 5px;
+}
+.contrac_track table th{
+   background-color: #f0f0f0;
+   line-height: 34px;
+   text-align: center;
+   color: #666666;
+}
+.contrac_track table td{
+   border-top:1px solid #b9b9b9;
+   line-height: 32px;
+   color: #333333;
+}
+.trading_center_form .step{
+   width: 730px;
+   margin-top: 22px;
+}
+.trading_center_form .step ul{
+   width: 700px;
+   margin:0 auto;
+   overflow: hidden;
+}
+
+.trading_center_form .step li{
+   float: left;
+   color: #666666;
+}
+.trading_center_form .step span{
+   display: inline-block;
+}
+.trading_center_form .step .active span:first-child{
+   background-color: #f27f00;
+   color: #fff;
+   border:0;
+}
+.trading_center_form .step .active span:first-child+span{
+   color: #f27f00;
+   width: 15px;
+}
+.trading_center_form .step p{
+   margin-left:10%;
+   margin-top: 10px;
+}
+.trading_center_form .step span:first-child{
+   display: inline-block;
+   line-height: 32px;
+   text-align: center;
+   border-radius: 3px;
+   font-size: 14px;
+   border:1px solid #aaaaaa;
+   padding: 0;
+}
+.trading_center_form .step .glyphicon{
+   font-size: 12px;
+   width: 16px;
+}
+
+
+
+
+
+

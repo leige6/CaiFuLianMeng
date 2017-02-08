@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+   <title>理财师-客户管理-客户投资</title>
+   <meta name="description" content="">
+   <meta name="keywords" content="">
+   <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="css/financial_user_list.css">
+   <!--[if lt IE 9]>
+   <script type="text/javascript" src="js/html5shiv.js"></script>
+   <script type="text/javascript" src="js/respond.min.js"></script>
+   <![endif]-->
+   <script type="text/javascript" src="jquery/jquery-1.11.1.min.js"></script>
+   <script type="text/javascript" src="jquery/jquery-placeholder.min.js"></script>
+   <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+   <script type="text/javascript" src="jquery/jquery.color.js"></script>
+</head>
+<body>
+<div class="container_find">
+   <!--  *********** 头部部分 ***********  -->
+   <header>
+      <div class="top">
+         <div class="left">
+            <span>专属客服：+8610 65186890-97</span>
+            <a href="javascript:;">
+               <span class="wechat">
+                  <img src="images/icon/icon_wechat_b.png">
+                  <img src="images/icon/icon_wechat_a.png">
+               </span>
+            </a>
+            <a href="javascript:;">
+               <span class="wechat">
+                  <img src="images/icon/icon_sina-b.png">
+                  <img src="images/icon/icon_sina-a.png">
+               </span>
+            </a>
+         </div>
+         <div class="right">
+            <ul>
+               <li>你好，请<a class="active" href="javascript:;">登录</a></li>
+               <li><a href="javascript:;">免费注册</a></li>
+               <li><a href="javascript:;">新手帮助</a></li>
+               <li><a href="javascript:;">意见反馈</a></li>
+            </ul>
+         </div>
+      </div>
+      <div class="header_container">
+         <div class="header_content">
+            <div class="logo clearfix">
+               <div class="left">
+                  <div class="logo"><img src="images/logo.png" alt=""></div>
+               </div>
+               <div class="right">
+                  <div class="search">
+                     <div class="input-group clearfix">
+									<span class="input-group-addon search_list">
+										<a class="top_nav_title" href="javascript:;">信托产品</a>
+										<span class="glyphicon glyphicon-chevron-down"></span>
+										<ul class="top_nav">
+                                 <li>
+												<a href="javascript:;">信托产品</a>
+											</li>
+											<li>
+												<a href="javascript:;">资管计划</a>
+											</li>
+											<li>
+												<a href="javascript:;">阳光私募</a>
+											</li>
+											<li>
+												<a href="javascript:;">私募股权</a>
+											</li>
+										</ul>
+									</span>
+                        <input class="info_search" type="text" class="form-control" placeholder="搜索您感兴趣的产品">
+                        <span class="input-group-addon icon_search">
+										<a href="javascript:;"><img src="images/icon/icon_search.png"></a>
+									</span>
+                     </div>
+                  </div>
+                  <p class="quick_search">
+                     <span>热搜：</span>
+                     <a href="javascript:;">保诚携升储蓄保障计划</a>
+                  </p>
+               </div>
+            </div>
+         </div>
+         <!--  *********** 导航栏部分 ***********  -->
+         <nav>
+            <div class="nav_bgc clearfix">
+               <ul class="nav_list">
+                  <li><a class="button button--wayra" href="javascript:;">首页</a></li>
+                  <li><a class="button button--wayra" href="javascript:;">信托产品</a></li>
+                  <li><a class="button button--wayra" href="javascript:;">资管计划</a></li>
+                  <li><a class="button button--wayra" href="javascript:;">阳光私募</a></li>
+                  <li><a class="button button--wayra" href="javascript:;">私募股权</a></li>
+               </ul>
+               <div class="account_center">
+                  <div class="center_title clearfix">
+                     <a class="active trusts_btn button button--wayra" href="javascript:;">
+                        <div class="btn_icon">
+                           <img src="images/icon/icon_user_center_b.png">
+                        </div>
+                        <div class="btn_word">
+                           <span>账户中心</span>
+                           <span class="glyphicon glyphicon-chevron-down"></span>
+                        </div>
+                     </a>
+                  </div>
+                  <ul class="user_info">
+                     <li>
+                        <a class="button button--wayra" href="javascript:;">我的报单</a>
+                     </li>
+                     <li>
+                        <a class="button button--wayra" href="javascript:;">我的预约</a>
+                     </li>
+                     <li>
+                        <a class="button button--wayra" href="javascript:;">我的合同</a>
+                     </li>
+                     <li>
+                        <a class="button button--wayra" href="javascript:;">退出登录</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </div>
+   </header>
+   <!--  *********** 内容部分 ***********  -->
+   <section class="content">
+      <div class="content_container clearfix">
+         <!--  *********** 左侧导航菜单 ***********  -->
+         <div class="left_menu">
+            <div class="menu_title menu_title_off">
+               <div class="title_icon">
+                  <img class="icon_a" src="images/icon/icon_user_2_a.png">
+                  <img class="icon_b" src="images/icon/icon_user_2_b.png">
+               </div>
+               <h2><a href="javascript:;">账户中心首页</a></h2>
+            </div>
+            <ul class="menu_list">
+               <li>
+                  <a class="list_title button button--wayra" href="javascript:;">
+                     <div class="list_title_icon">
+                        <img class="icon_b" src="images/icon/icon_center_b.png">
+                        <img class="icon_c" src="images/icon/icon_center_c.png">
+                     </div>
+                     <h4 class="menu_header">交易中心</h4>
+                     <span class="glyphicon glyphicon-chevron-up"></span>
+                  </a>
+                  <ul class="menu_down_list">
+                     <li><a class="button button--wayra" href="javascript:;">我的报单</a></li>
+                     <li><a class="button button--wayra" href="javascript:;">我的预约</a></li>
+                     <li><a class="button button--wayra" href="javascript:;">我的合同</a></li>
+                  </ul>
+               </li>
+               <li>
+                  <a class="list_title button button--wayra" href="javascript:;">
+                     <div class="list_title_icon">
+                        <img class="icon_b" src="images/icon/icon_collection_b.png">
+                        <img class="icon_c" src="images/icon/icon_collection_c.png">
+                     </div>
+                     <h4 class="menu_header">产品收藏</h4>
+                     <span class="glyphicon glyphicon-chevron-up"></span>
+                  </a>
+                  <ul class="menu_down_list">
+                     <li><a class="button button--wayra" href="javascript:;">我的收藏</a></li>
+                  </ul>
+               </li>
+               <li class="menu_on">
+                  <a class="list_title button button--wayra" href="javascript:;">
+                     <div class="list_title_icon">
+                        <img class="icon_b" src="images/icon/icon_user_a.png">
+                        <img class="icon_c" src="images/icon/icon_user_c.png">
+                     </div>
+                     <h4 class="menu_header_on">客户管理</h4>
+                     <span class="glyphicon glyphicon-chevron-up"></span>
+                  </a>
+                  <ul class="menu_down_list">
+                     <li><a class="button button--wayra" href="javascript:;">客户列表</a></li>
+                     <li class="active"><a class="button button--wayra" href="javascript:;">客户投资</a></li>
+                     <li><a class="button button--wayra" href="javascript:;">客户日程</a></li>
+                  </ul>
+               </li>
+               <li>
+                  <a class="list_title button button--wayra" href="javascript:;">
+                     <div class="list_title_icon">
+                        <img class="icon_b" src="images/icon/icon_account_b.png">
+                        <img class="icon_c" src="images/icon/icon_account_c.png">
+                     </div>
+                     <h4 class="menu_header">账户管理</h4>
+                     <span class="glyphicon glyphicon-chevron-up"></span>
+                  </a>
+                  <ul class="menu_down_list">
+                     <li><a class="button button--wayra" href="javascript:;">修改密码</a></li>
+                  </ul>
+               </li>
+               <li>
+                  <a class="list_title button button--wayra" href="javascript:;">
+                     <div class="list_title_icon">
+                        <img class="icon_b" src="images/icon/icon_news_b.png">
+                        <img class="icon_c" src="images/icon/icon_news_c.png">
+                     </div>
+                     <h4 class="menu_header">系统消息</h4>
+                     <span class="glyphicon glyphicon-chevron-up"></span>
+                  </a>
+                  <ul class="menu_down_list">
+                     <li><a class="button button--wayra" href="javascript:;">业务消息</a></li>
+                     <li><a class="button button--wayra" href="javascript:;">通知消息</a></li>
+                  </ul>
+               </li>
+               <li>
+                  <a class="list_title button button--wayra" href="javascript:;">
+                     <div class="list_title_icon">
+                        <img class="icon_b" src="images/icon/icon_exit_b.png">
+                        <img class="icon_c" src="images/icon/icon_exit_c.png">
+                     </div>
+                     <h4 class="menu_header">退出登录</h4>
+                  </a>
+               </li>
+            </ul>
+         </div>
+         <!--  *********** 右侧内容-部分 ***********  -->
+         <div class="right_content">
+            <h3>客户投资</h3>
+            <!--  *********** 右侧内容-理财师-客户投资搜索-部分 ***********  -->
+            <div class="financial_search">
+               <form>
+                  <div class="form-froup input_top">
+                     <label>
+                        <span>客户姓名：</span>
+                        <input class="form-control" type="text">
+                     </label>
+                     <label>
+                        <span>身份证号：</span>
+                        <input class="form-control" type="text">
+                     </label>
+                     <button>搜索</button>
+                  </div>
+               </form>
+            </div>
+            <!--  *********** 右侧内容-客户投资-列表-部分 ***********  -->
+            <table>
+               <tr>
+                  <th>产品名称</th>
+                  <th>客户姓名</th>
+                  <th>身份证号</th>
+                  <th>投资金额</th>
+                  <th>创建时间</th>
+                  <th>操作</th>
+               </tr>
+               <tr>
+                  <td>大业信托-兴创美林湖</td>
+                  <td>王某某</td>
+                  <td>13522651314632356</td>
+                  <td>100万元</td>
+                  <td>12-11 13:23</td>
+                  <td>
+                     <a href="javascript:;">查看</a>
+                     <a href="javascript:;">删除</a>
+                  </td>
+               </tr>
+               <tr>
+                  <td>大业信托-兴创美林湖</td>
+                  <td>王某某</td>
+                  <td>13522651314632356</td>
+                  <td>100万元</td>
+                  <td>12-11 13:23</td>
+                  <td>
+                     <a href="javascript:;">查看</a>
+                     <a href="javascript:;">删除</a>
+                  </td>
+               </tr>
+               <tr>
+                  <td>大业信托-兴创美林湖</td>
+                  <td>王某某</td>
+                  <td>13522651314632356</td>
+                  <td>100万元</td>
+                  <td>12-11 13:23</td>
+                  <td>
+                     <a href="javascript:;">查看</a>
+                     <a href="javascript:;">删除</a>
+                  </td>
+               </tr>
+               <tr>
+                  <td>大业信托-兴创美林湖</td>
+                  <td>王某某</td>
+                  <td>13522651314632356</td>
+                  <td>100万元</td>
+                  <td>12-11 13:23</td>
+                  <td>
+                     <a href="javascript:;">查看</a>
+                     <a href="javascript:;">删除</a>
+                  </td>
+               </tr>
+               <tr>
+                  <td>大业信托-兴创美林湖</td>
+                  <td>王某某</td>
+                  <td>13522651314632356</td>
+                  <td>100万元</td>
+                  <td>12-11 13:23</td>
+                  <td>
+                     <a href="javascript:;">查看</a>
+                     <a href="javascript:;">删除</a>
+                  </td>
+               </tr>
+               <tr>
+                  <td>大业信托-兴创美林湖</td>
+                  <td>王某某</td>
+                  <td>13522651314632356</td>
+                  <td>100万元</td>
+                  <td>12-11 13:23</td>
+                  <td>
+                     <a href="javascript:;">查看</a>
+                     <a href="javascript:;">删除</a>
+                  </td>
+               </tr>
+               <tr>
+                  <td>大业信托-兴创美林湖</td>
+                  <td>王某某</td>
+                  <td>13522651314632356</td>
+                  <td>100万元</td>
+                  <td>12-11 13:23</td>
+                  <td>
+                     <a href="javascript:;">查看</a>
+                     <a href="javascript:;">删除</a>
+                  </td>
+               </tr>
+               <tr>
+                  <td>大业信托-兴创美林湖</td>
+                  <td>王某某</td>
+                  <td>13522651314632356</td>
+                  <td>100万元</td>
+                  <td>12-11 13:23</td>
+                  <td>
+                     <a href="javascript:;">查看</a>
+                     <a href="javascript:;">删除</a>
+                  </td>
+               </tr>
+               <tr>
+                  <td>大业信托-兴创美林湖</td>
+                  <td>王某某</td>
+                  <td>13522651314632356</td>
+                  <td>100万元</td>
+                  <td>12-11 13:23</td>
+                  <td>
+                     <a href="javascript:;">查看</a>
+                     <a href="javascript:;">删除</a>
+                  </td>
+               </tr>
+
+            </table>
+            <!--  *********** 右侧内容-机构报单-分页-部分 ***********  -->
+            <div class="pagination">
+               <div class="page_btn_list">
+                  <ul>
+                     <li class="page_btn">
+                        <a class="prev_btn" href="javascript:;"><span class="glyphicon glyphicon-step-backward"></span>
+                           <span>首页</span>
+                        </a>
+                     </li>
+                     <li class="page_btn">
+                        <a class="last_btn" href="javascript:;">
+                           <span class="glyphicon glyphicon-chevron-left"></span>
+                           <span>上一页</span>
+                        </a>
+                     </li>
+                     <li class="page_btn_num"><a href="javascript:;">1</a></li>
+                     <li class="page_btn_num"><a href="javascript:;">2</a></li>
+                     <li class="page_btn_num"><a href="javascript:;">3</a></li>
+                     <li class="page_btn_num"><a href="javascript:;">4</a></li>
+                     <li class="page_btn_num"><a href="javascript:;">5</a></li>
+                     <li class="page_btn_num"><a href="javascript:;">...</a></li>
+                     <li class="page_btn_num"><a href="javascript:;">9</a></li>
+                     <li class="page_btn next_btn_li">
+                        <a class="next_btn" href="javascript:;">
+                           <span class="glyphicon glyphicon-chevron-right"></span>
+                           <span>后一页</span>
+                        </a>
+                     </li>
+                     <li class="page_btn last_next_btn_li">
+                        <a class="last_next_btn" href="javascript:;">
+                           <span class="glyphicon glyphicon-step-forward"></span>
+                           <span>尾页</span>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--  *********** 底部部分 ***********  -->
+   <footer>
+      <section class="clearfix">
+         <article class="left">
+            <img src="images/bottom_logo.png">
+            <div class="phone">
+               <div class="img">
+                  <img src="images/bottom_phone.png">
+               </div>
+               <p>+8610 65186890-97</p>
+            </div>
+            <p class="service_time">服务时间：09:00 - 21:00</p>
+         </article>
+         <article class="center">
+            <ul>
+               <li><a href="javascript:;">关于我们</a></li>
+               <li><a href="javascript:;">加入我们</a></li>
+               <li><a href="javascript:;">隐私保障</a></li>
+               <li><a href="javascript:;">法律声明</a></li>
+               <li><a href="javascript:;">联系我们</a></li>
+            </ul>
+            <ul class="certification">
+               <li class="credibility"><a href="javascript:;"></a></li>
+               <li class="private"><a href="javascript:;"></a></li>
+            </ul>
+            <p>
+               <span>北京君德财富投资管理有限公司</span>
+               <span>| 京ICP备11024125号</span>
+            </p>
+         </article>
+         <article class="right">
+            <ul>
+               <li>
+                  <img src="images/download_app.png">
+                  <p>下载手机APP</p>
+               </li>
+               <li>
+                  <img src="images/wechat.png">
+                  <p>关注官方微信</p>
+               </li>
+            </ul>
+         </article>
+      </section>
+   </footer>
+</div>
+<script type="text/javascript" src="js/public.js"></script>
+<script type="text/javascript" src="js/distpicker.data.js"></script>
+<script type="text/javascript" src="js/distpicker.js"></script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>首页-登录</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/home_sign.css">
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="js/html5shiv.js"></script>
+<script type="text/javascript" src="js/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="jquery/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="jquery/jquery-placeholder.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container_find">
+		<!--  *********** 头部部分 ***********  -->
+		<header>
+			<div class="row">
+				<div class="logo">
+					<img src="images/logo.png">
+				</div>
+				<h1>登&nbsp;录</h1>
+			</div>
+		</header>
+		<!--  *********** 内容部分 ***********  -->
+		<section>
+			<article class="sign_view clearfix">
+				<!--  *********** 登录窗口 ***********  -->
+				<aside class="nav nav-tabs" role="tablist">
+					<h3>
+						<a role="presentation" role="tab" data-toggle="tab" class="active" href="#financial">理财师</a>
+						<a role="presentation" role="tab" data-toggle="tab"  href="#company">企业机构</a>
+					</h3>
+					<!--  *********** 登录表单 ***********  -->
+					<div class="tab-content">
+						<form role="tabpanel" class="tab-pane active" id="financial">
+							<label class="active user_phone">
+								<span><img src="images/icon/icon_phone.png"></span>
+								<input type="text" placeholder="请输入手机号码" name="">
+							</label>
+							<label class="user_pass">
+								<span><img src="images/icon/icon_password.png"></span>
+								<input type="text" placeholder="请输入登录密码" name="">
+							</label>
+							<label class="checkbox-inline">
+								<input type="checkbox" id="inlineCheckbox1" value="option1">记住账号
+								<a href="javascript:;">忘记密码？</a>
+							</label>
+							<button>登录</button>
+							<p>还没有账号？<a href="javascript:;">立即注册</a></p>
+						</form>
+						<form role="tabpanel" class="tab-pane" id="company">
+							<label class="active user_phone">
+								<span><img src="images/icon/icon_phone.png"></span>
+								<input type="text" placeholder="请输入手机号码" name="">
+							</label>
+							<label class="user_pass">
+								<span><img src="images/icon/icon_password.png"></span>
+								<input type="text" placeholder="请输入登录密码" name="">
+							</label>
+							<label class="checkbox-inline">
+								<input type="checkbox" id="inlineCheckbox2" value="option1">记住账号
+								<a href="javascript:;">忘记密码？</a>
+							</label>
+							<button>登录</button>
+						</form>
+					</div>
+				</aside>
+			</article>
+		</section>
+		<!--  *********** 底部部分 ***********  -->
+		<footer>
+			<section class="clearfix">
+				<article class="left">
+					<img src="images/bottom_logo.png">
+					<div class="phone">
+						<div class="img">
+							<img src="images/bottom_phone.png">
+						</div>
+						<p>+8610 65186890-97</p>
+					</div>
+					<p class="service_time">服务时间：09:00 - 21:00</p>
+				</article>
+				<article class="center">
+					<ul>
+						<li><a href="javascript:;">关于我们</a></li>
+						<li><a href="javascript:;">加入我们</a></li>
+						<li><a href="javascript:;">隐私保障</a></li>
+						<li><a href="javascript:;">法律声明</a></li>
+						<li><a href="javascript:;">联系我们</a></li>
+					</ul>
+					<ul class="certification">
+						<li class="credibility"><a href="javascript:;"></a></li>
+						<li class="private"><a href="javascript:;"></a></li>
+					</ul>
+					<p>
+						<span>北京君德财富投资管理有限公司</span>
+						<span>| 京ICP备11024125号</span>
+					</p>
+				</article>
+				<article class="right">
+					<ul>
+						<li>
+							<img src="images/download_app.png">
+							<p>下载手机APP</p>
+						</li>
+						<li>
+							<img src="images/wechat.png">
+							<p>关注官方微信</p>
+						</li>
+					</ul>
+				</article>
+			</section>
+		</footer>
+	</div>
+
+<script type="text/javascript">
+$(".nav-tabs h3 a").click(function(){
+	$(this).addClass("active").siblings().removeClass("active");
+});
+$("form label").click(function(){
+	$(this).addClass("active").siblings().removeClass("active");
+});
+$(function(){
+   $("input,textarea").placeholder();
+});
+</script>
+</body>
+</html>

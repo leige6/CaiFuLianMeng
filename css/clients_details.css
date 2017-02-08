@@ -1,0 +1,126 @@
+@import "public/reset.css";
+@import "public/header.css";
+@import "public/footer.css";
+@import "public/menu.css";
+
+.clients_details{
+   width: 730px;
+   border-top: 1px solid #d2d2d2;
+}
+.clients_details ul {
+   width: 670px;
+   margin: 0 auto;
+   margin-top: 30px;
+}
+.clients_details li{
+   margin-top: 36px;
+}
+.clients_details .clients_info_1 table{
+   margin-left:65px;
+}
+.clients_details .clients_info_2 table{
+   margin-left:65px;
+}
+.clients_details .clients_info_3 table{
+   margin-left:65px;
+}
+.clients_details .clients_info_4 table{
+   margin-left:65px;
+}
+.clients_details .clients_info_3 tr td:first-child{
+   position: relative;
+   left: -44px;
+   text-align: right;
+}
+.clients_details .clients_info_3 tr td:first-child+th{
+   position: relative;
+   left: -44px;
+}
+.clients_details .clients_info_3 tr td:first-child+th+td{
+   position: relative;
+   left: -44px;
+   text-align: right;
+}
+.clients_details .clients_info_3 tr td:first-child+th+td+th{
+   position: relative;
+   left: -44px;
+}
+.clients_details .clients_info_4 tr td:first-child{
+   position: relative;
+   left: 0px;
+   text-align: right;
+}
+.clients_details .clients_info_4 tr td:first-child+th{
+   position: relative;
+   left: 0px;
+}
+.clients_details .clients_info_4 tr td:first-child+th+td{
+   position: relative;
+   left: 0px;
+   text-align: right;
+}
+.clients_details .clients_info_4 tr td:first-child+th+td+th{
+   position: relative;
+   left: 0px;
+}
+.clients_details .clients_info_5 tr td:first-child{
+   position: relative;
+   left: -20px;
+   text-align: right;
+}
+.clients_details .clients_info_5 tr td:first-child+th{
+   position: relative;
+   left: -20px;
+}
+.clients_details .other_td td{
+   width: 150px;
+   text-align: left;
+}
+.clients_details ul table th{
+   font-size: 16px;
+   color: #333333;
+   width: 200px;
+}
+.clients_details ul h5{
+   color: #f27f00;
+   font-weight:100;
+   font-size: 16px;
+   border-bottom: 1px solid #f27f00;
+   display: inline-block;
+   padding-bottom: 5px;
+}
+.clients_details ul table{
+   width: 600px;
+   margin-top: 12px;
+}
+.clients_details ul table tr{
+   line-height: 40px;
+}
+.clients_details ul table td{
+   width: 80px;
+   font-size:16px;
+   color: #666666;
+   text-align: right;
+}
+.clients_details ul table th{
+   text-align: left;
+   font-size: 16px;
+   font-weight: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
